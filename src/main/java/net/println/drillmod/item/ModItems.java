@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, DrillMod.MOD_ID);
 
 
-    public static final RegistryObject<Item> STEAL_INGOT = ITEMS.register("steal_ingot",
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

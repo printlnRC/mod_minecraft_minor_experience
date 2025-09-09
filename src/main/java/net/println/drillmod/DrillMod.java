@@ -54,7 +54,7 @@ public class DrillMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.STEAL_INGOT);
+            event.accept(ModItems.STEEL_INGOT);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

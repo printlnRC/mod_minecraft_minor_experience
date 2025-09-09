@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "drillmod:item/steal_ingot"
+    "layer0": "drillmod:item/steel_ingot"
   }
 }

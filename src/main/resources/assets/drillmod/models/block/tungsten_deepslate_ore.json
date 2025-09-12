@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "drillmod:block/tungsten_deepslate_ore"
+  }
+}

@@ -1,5 +1,8 @@
 {
   "item.drillmod.steel_ingot": "l'ingot d'acier",
+  "item.drillmod.raw_tungsten": "tungstène brut",
 
-  "block.drillmod.steel_block": "bloc d'acier"
+  "block.drillmod.steel_block": "bloc d'acier",
+  "block.drillmod.tungsten_ore": "minerai de tingstène",
+  "block.drillmod.tungsten_deepslate_ore": "minerai de tingstène"
 }

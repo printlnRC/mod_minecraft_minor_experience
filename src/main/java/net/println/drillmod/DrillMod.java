@@ -57,10 +57,13 @@ public class DrillMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModItems.RAW_TUNGSTEN);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.STEEL_BLOCK);
+            event.accept(ModBlocks.TUNGSTEN_ORE);
+            event.accept(ModBlocks.TUNGSTEN_DEEPSLATE_ORE);
         }
     }
 

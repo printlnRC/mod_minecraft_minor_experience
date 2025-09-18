@@ -1,0 +1,10 @@
+// 1.21	2025-09-18T11:31:40.1402959	Block States: drillmod
+f526d28a51cf813d0ec5161a32969b1aaff02c9e assets/drillmod/blockstates/steel_block.json
+253ace6c439469da927072f7ece4e6afbe5ef319 assets/drillmod/blockstates/tungsten_deepslate_ore.json
+d4b83dcc2306cbdef40f464d016dfe309491ba15 assets/drillmod/blockstates/tungsten_ore.json
+2ffd0ba3028189e25809b11e3dd3352a88dfcedc assets/drillmod/models/block/steel_block.json
+b85026da3b27793c6ec5ba84b8cca5ed0b58102b assets/drillmod/models/block/tungsten_deepslate_ore.json
+600918ffdceab720191e03448b97154918d1f5c7 assets/drillmod/models/block/tungsten_ore.json
+a7d93cc2b1e37200ac1697ad09b11a478215dad7 assets/drillmod/models/item/steel_block.json
+b799fc85a92ea8bb090bc0e7816569510eb9074a assets/drillmod/models/item/tungsten_deepslate_ore.json
+7acb8a8752c5dc9837cda20b6c4f8b0b3f3da586 assets/drillmod/models/item/tungsten_ore.json

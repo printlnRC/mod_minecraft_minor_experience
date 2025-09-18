@@ -1,0 +1,4 @@
+// 1.21	2025-09-18T17:40:34.8943696	Tags for minecraft:block mod id drillmod
+054c655dc2dd2f02e14beec26265a041b35c16c4 data/minecraft/tags/block/mineable/pickaxe.json
+1888ae6f1dafff9a1f2bbdc9271553784f6e9eb8 data/minecraft/tags/block/needs_diamond_tool.json
+30ebf8850c33086ad11c41ed6ac9001dce1ebf59 data/minecraft/tags/block/needs_iron_tool.json

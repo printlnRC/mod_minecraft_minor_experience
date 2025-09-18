@@ -1,4 +1,3 @@
-
 {
   "type": "minecraft:block",
   "pools": [
@@ -36,7 +35,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 5.0,
+                    "max": 6.0,
                     "min": 2.0
                   },
                   "function": "minecraft:set_count"
@@ -58,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "drillmod:blockse/tungsten_depslate_ore"
+  "random_sequence": "drillmod:blocks/tungsten_deepslate_ore"
 }

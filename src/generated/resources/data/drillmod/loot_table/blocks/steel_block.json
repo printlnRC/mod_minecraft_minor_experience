@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:services_explosion"
+          "condition": "minecraft:survives_explosion"
         }
       ],
       "entries": [
@@ -14,7 +14,7 @@
           "name": "drillmod:steel_block"
         }
       ],
-      "rools": 1.0
+      "rolls": 1.0
     }
   ],
   "random_sequence": "drillmod:blocks/steel_block"

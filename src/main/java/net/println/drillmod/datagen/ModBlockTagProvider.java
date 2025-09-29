@@ -7,6 +7,7 @@ import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.println.drillmod.DrillMod;
 import net.println.drillmod.block.ModBlocks;
+import net.println.drillmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -29,5 +30,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get());
+
+        tag(ModTags.Blocks.NEED_STEEL_TOOL)
+                .add(ModBlocks.STEEL_BLOCK.get())
+                .add(ModBlocks.TUNGSTEN_ORE.get());
+
+        tag(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEED_STEEL_TOOL);
     }
 }

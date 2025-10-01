@@ -1,3 +1,8 @@
-// 1.21	2025-09-18T11:31:40.1427057	Item Models: drillmod
+// 1.21	2025-10-01T21:45:52.2756103	Item Models: drillmod
 fdba1da5c31f3ef91d5c9f9cd9fd4459c21578ba assets/drillmod/models/item/raw_tungsten.json
+8eaa2669a6942ca855387ae4ad44bf0d09eea5fe assets/drillmod/models/item/steel_axe.json
+a268cda6d66a19eeab3cad4d91aa36d55f5072ef assets/drillmod/models/item/steel_hoe.json
 73d9a6a981fe7a0dca6840a5bb86a9d2053c0379 assets/drillmod/models/item/steel_ingot.json
+7d298a1ca6c69786e3946feab49789f86b0c6954 assets/drillmod/models/item/steel_pickaxe.json
+95f13ebade9ce4e145fe55db8fb58ee97bf3e26e assets/drillmod/models/item/steel_shovel.json
+6db27d4c13ba41961e9154394aa93f8d4b401cea assets/drillmod/models/item/steel_sword.json

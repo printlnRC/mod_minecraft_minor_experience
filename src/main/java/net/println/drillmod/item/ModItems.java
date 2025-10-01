@@ -29,7 +29,7 @@ public class ModItems {
                     .attributes(ShovelItem.createAttributes(ModToolTiers.STEEL, 1.5f, -3.0f))));
     public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_axe",
             () -> new AxeItem(ModToolTiers.STEEL, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.STEEL, 6, -3.2f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.STEEL, 5, -3.2f))));
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(ModToolTiers.STEEL, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.STEEL, 0, -3.0f))));

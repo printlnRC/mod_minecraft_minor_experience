@@ -22,6 +22,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.RAW_TUNGSTEN.get())
+                .add(ModItems.TUNGSTEN_INGOT.get())
+
                 .add(ModItems.STEEL_INGOT.get());
     }
 }

@@ -17,7 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.STEEL_BLOCK);
 
-
+        blockWithItem(ModBlocks.TUNGSTEN_BLOCK);
         blockWithItem(ModBlocks.TUNGSTEN_ORE);
         blockWithItem(ModBlocks.TUNGSTEN_DEEPSLATE_ORE);
     }

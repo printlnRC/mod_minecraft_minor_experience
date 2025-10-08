@@ -1,4 +1,5 @@
-// 1.21	2025-09-18T18:25:20.8286392	Loot Tables
+// 1.21	2025-10-08T23:03:55.2340033	Loot Tables
 41000994066f165849387df6288cf0069f796b78 data/drillmod/loot_table/blocks/steel_block.json
-408a2a046c6b71698551f85b8ebcb75a263d85e6 data/drillmod/loot_table/blocks/tungsten_deepslate_ore.json
+1aa74689668c4b44a88a4607f25d1639767aeb42 data/drillmod/loot_table/blocks/tungsten_block.json
+e8995c339462238ae5f4cd76036da7ae12cd1a45 data/drillmod/loot_table/blocks/tungsten_deepslate_ore.json
 7f407473abfe6cc7fd73813ca70a5b801902ae9b data/drillmod/loot_table/blocks/tungsten_ore.json

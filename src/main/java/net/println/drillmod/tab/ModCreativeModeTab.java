@@ -22,9 +22,11 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.TUNGSTEN_ORE.get());
                         output.accept(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
 
                         output.accept(ModItems.RAW_TUNGSTEN.get());
                         output.accept(ModItems.STEEL_INGOT.get());
+                        output.accept(ModItems.TUNGSTEN_INGOT.get());
 
                         output.accept(ModItems.STEEL_SWORD.get());
                         output.accept(ModItems.STEEL_PICKAXE.get());

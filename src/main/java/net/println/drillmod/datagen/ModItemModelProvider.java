@@ -19,6 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.STEEL_INGOT.get());
         basicItem(ModItems.RAW_TUNGSTEN.get());
+        basicItem(ModItems.TUNGSTEN_INGOT.get());
 
         handheldItem(ModItems.STEEL_SWORD);
         handheldItem(ModItems.STEEL_PICKAXE);

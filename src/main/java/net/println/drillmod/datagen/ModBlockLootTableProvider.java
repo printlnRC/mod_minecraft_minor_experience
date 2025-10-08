@@ -31,11 +31,13 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.STEEL_BLOCK.get());
 
+        dropSelf(ModBlocks.TUNGSTEN_BLOCK.get());
+
         this.add(ModBlocks.TUNGSTEN_ORE.get(),
                 block -> createOreDrop(ModBlocks.TUNGSTEN_ORE.get(), ModItems.RAW_TUNGSTEN.get()));
 
         this.add(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get(), ModItems.RAW_TUNGSTEN.get(), 2,4));
+                block -> createMultipleOreDrops(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get(), ModItems.RAW_TUNGSTEN.get(), 2,3));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

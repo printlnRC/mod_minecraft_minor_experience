@@ -1,6 +1,7 @@
 {
   "values": [
     "drillmod:raw_tungsten",
+    "drillmod:tungsten_ingot",
     "drillmod:steel_ingot"
   ]
 }

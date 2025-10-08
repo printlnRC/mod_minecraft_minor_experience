@@ -21,6 +21,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.STEEL_BLOCK.get())
+                .add(ModBlocks.TUNGSTEN_BLOCK.get())
                 .add(ModBlocks.TUNGSTEN_ORE.get())
                 .add(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get());
 
@@ -29,11 +30,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TUNGSTEN_ORE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get());
+                .add(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get())
+                .add(ModBlocks.TUNGSTEN_BLOCK.get());
 
         tag(ModTags.Blocks.NEED_STEEL_TOOL)
                 .add(ModBlocks.STEEL_BLOCK.get())
-                .add(ModBlocks.TUNGSTEN_ORE.get());
+                .add(ModBlocks.TUNGSTEN_BLOCK.get());
 
         tag(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)

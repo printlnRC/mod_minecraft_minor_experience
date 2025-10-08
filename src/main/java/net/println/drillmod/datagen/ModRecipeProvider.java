@@ -68,5 +68,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.STEEL_INGOT.get())
                 .define('B', Items.STICK)
                 .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TUNGSTEN_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModBlocks.TUNGSTEN_BLOCK.get())).save(pRecipeOutput);
     }
 }

@@ -8,8 +8,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.println.drillmod.DrillMod;
 
-public class ModTags {
+public class  ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEED_STEEL_TOOL = createTag("need_steel_tool");
+        public static final TagKey<Block> INCORRECT_FOR_STEEL_TOOL = createTag("incorrect_for_steel_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(DrillMod.MOD_ID, name));

@@ -19,11 +19,19 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModItems.STEEL_INGOT.get()))
                     .title(Component.translatable("creativetab.drillmod.steel_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.STEEL_INGOT.get());
                         output.accept(ModBlocks.STEEL_BLOCK.get());
-                        output.accept(ModItems.RAW_TUNGSTEN.get());
                         output.accept(ModBlocks.TUNGSTEN_ORE.get());
                         output.accept(ModBlocks.TUNGSTEN_DEEPSLATE_ORE.get());
+
+                        output.accept(ModItems.RAW_TUNGSTEN.get());
+                        output.accept(ModItems.STEEL_INGOT.get());
+
+                        output.accept(ModItems.STEEL_SWORD.get());
+                        output.accept(ModItems.STEEL_PICKAXE.get());
+                        output.accept(ModItems.STEEL_SHOVEL.get());
+                        output.accept(ModItems.STEEL_AXE.get());
+                        output.accept(ModItems.STEEL_HOE.get());
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

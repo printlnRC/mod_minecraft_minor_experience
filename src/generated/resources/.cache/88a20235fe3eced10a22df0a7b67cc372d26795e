@@ -1,6 +1,6 @@
-// 1.21	2025-10-08T23:03:55.2182171	Tags for minecraft:block mod id drillmod
+// 1.21	2025-11-20T19:41:47.9149579	Tags for minecraft:block mod id drillmod
 4c875ee9f687a2986e2d9d24741a24162d3554a6 data/drillmod/tags/block/incorrect_for_steel_tool.json
-cd2e7e0050b25b0106f4719020410bd7273feaa5 data/drillmod/tags/block/need_steel_tool.json
+8cf0cf0305472296d2e2e6b51fe1951055cbbd15 data/drillmod/tags/block/need_steel_tool.json
 3caab02333de20af01d9b2c84172918a99172e64 data/minecraft/tags/block/mineable/pickaxe.json
 a6de3e15f8d2caa89897d659080111f5ac445b68 data/minecraft/tags/block/needs_diamond_tool.json
 30ebf8850c33086ad11c41ed6ac9001dce1ebf59 data/minecraft/tags/block/needs_iron_tool.json
